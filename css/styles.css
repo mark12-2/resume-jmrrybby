@@ -10892,6 +10892,20 @@ p.lead {
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
+  /* Default image size */
+.img-profile {
+  width: 200px; /* Default size */
+  height: 200px;
+}
+
+/* Smaller size for phone screens */
+@media (max-width: 576px) {
+  .img-profile {
+    width: 100px;
+    height: 100px;
+  }
+}
+
   #sideNav .navbar-collapse {
     display: flex;
     align-items: flex-start;
